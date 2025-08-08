@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sruthi S | Aspiring Software Developer</title>
+  <title>Sruthi S | Aspiring Frontend Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -175,7 +175,7 @@
   <main>
     <section id="about">
       <h3>Career Objective</h3>
-      <p>Highly motivated B.Tech Computer Science & Design engineering student, aspiring software developer, with strong problem-solving and analytical skills, and willingness to work in challenging environments.. I am passionate about building responsive, userfriendly applications that solve real-world problems. I truly believe in the power
+      <p>Highly motivated B.Tech Computer Science & Design engineering student, aspiring frontend developer, with strong problem-solving and analytical skills, and willingness to work in challenging environments.. I am passionate about building responsive, userfriendly applications that solve real-world problems. I truly believe in the power
 of technology to make a meaningful impact in people's lives, and I'm eager to
 contribute to mission-driven companies where my work can create real value.</p>
       <h3>Contact</h3>
@@ -268,6 +268,20 @@ contribute to mission-driven companies where my work can create real value.</p>
     </div>
   </div>
 <br><br>
+<div class="project">
+    <h4>XARA Fashion Store</h4>
+    <button onclick="toggle('descXara')">Show Details</button>
+    <div id="descXara" class="hidden">
+      <ul>
+        <li>HTML5, CSS3, JavaScript, Tailwind CSS</li>
+        <li>Frontend e-commerce with login/registration (credentials: user1234/xara26), product categories, cart system</li>
+        <li>Features: gradient backgrounds, hover animations, smooth transitions, responsive grids, premium typography</li>
+        <li>Modern UI with product cards, fashion collections, simulated checkout flow</li>
+      </ul>
+    </div>
+  </div>
+<br><br>
+
   <div class="project">
     <h4>Portfolio Website</h4>
     <button onclick="toggle('desc3')">Show Details</button>
@@ -276,6 +290,7 @@ contribute to mission-driven companies where my work can create real value.</p>
     </div>
   </div>
 </section>
+
 
 
 
@@ -414,7 +429,7 @@ async function generatePDF() {
   ]);
 
   addHeading("Projects");
-  addList([
+addList([
     `Human Resource Management Website
      - The skills & technology used to build this website are HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, PostgreSQL, Docker (Containerization & Deployment), Git, RESTful API Design, Responsive Design.
      - Features: secure user registration and login with role-based access, employee dashboards with profiles, attendance, leave history, performance reviews, admin dashboards for management, payroll, recruitment portal, and Dockerized deployment.
@@ -424,9 +439,15 @@ async function generatePDF() {
      - Skills & Technologies Used: HTML, CSS, Responsive Design.
      - Features: Static homepage inspired by Netflix UI, sections for featured shows, trending content, navigation bar with logo/menu/search, fully responsive with hover effects.`,
 
+    `XARA Fashion Store
+     - Skills & Technologies Used: HTML5, CSS3, JavaScript, Tailwind CSS.
+     - Features: Frontend e-commerce with login/registration (credentials user1234/xara26), product categories, cart system, gradient backgrounds, hover animations, smooth transitions.
+     - Modern UI with responsive grids, premium typography, product cards, and simulated checkout flow.`,
+
     `Portfolio Website
      - Designed a responsive personal portfolio using HTML, CSS, and JavaScript with modern design aesthetics. Hosted on Netlify.`
-  ]);
+]);
+
 
   addHeading("Internship Experience");
   addList([
